@@ -6,8 +6,7 @@
 本项目以kaggle竞赛ISIC 2024 - Skin Cancer Detection with 3D-TBP[[ISIC 2024 - Skin Cancer Detection with 3D-TBP | Kaggle](https://www.kaggle.com/competitions/isic-2024-challenge/overview)] 为背景，旨在提高皮肤癌检测的效率及正确率。我们通过该工作进一步验证了MedMamba在解决医学检测任务的有效性。
 
 ## Method
-
-![[微信截图_20240801175021.png]]
+![1](https://github.com/user-attachments/assets/0ce35509-9f7d-49e6-944e-fe52d34420de)
 
 我们基本遵循MedMamba提出的pipeline，该方法以SS-Conv-SSM为主要组成部分，融合了CNN和Mamba状态模型，保证在捕捉局部细节信息的同时获得全局关系，并使用VisionMamba提出的SS2D模块，通过多方向扫描使得Mamba能够合理地建模patch序列信息。
 
